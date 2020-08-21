@@ -1,0 +1,42 @@
+@import '~bootstrap/scss/bootstrap';
+
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+td, th {
+  padding: 0px 8px;
+}
+
+td.title, .form {
+  cursor: pointer;
+}
+
+td.title:hover, p.form:hover {
+  text-decoration: underline;
+}
+
+p, .form {
+  margin-left: 20px;
+}
+
+.accordion {
+  margin-top: 10px;
+}
+
+td.date {
+  text-align: center;
+}
+
+canvas {
+  max-height: 75vh;
+  max-width: 100vh;
+}
+
+.chart, #myTasksList {
+  padding: 10px;
+}
